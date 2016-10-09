@@ -13,3 +13,6 @@
 [submodule "puppet/modules/apt"]
 	path = puppet/modules/apt
 	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "puppet/modules/grafana"]
+	path = puppet/modules/grafana
+	url = https://github.com/link0/puppet-grafana.git
