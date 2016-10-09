@@ -10,4 +10,7 @@ class role::stats_collector (
     rrd    => false,
   }
 
+  class { '::profile::influxdb':
+  }
+
 }

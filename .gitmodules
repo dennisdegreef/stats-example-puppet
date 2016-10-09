@@ -7,3 +7,9 @@
 [submodule "puppet/modules/openntpd"]
 	path = puppet/modules/openntpd
 	url = https://github.com/link0/puppet-openntpd
+[submodule "puppet/modules/influxdb"]
+	path = puppet/modules/influxdb
+	url = git@github.com:link0/puppet-influxdb.git
+[submodule "puppet/modules/apt"]
+	path = puppet/modules/apt
+	url = https://github.com/puppetlabs/puppetlabs-apt.git
