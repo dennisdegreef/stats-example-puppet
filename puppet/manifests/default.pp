@@ -1,5 +1,6 @@
 
-include ::profile::collectd
+include ::role
+include ::role::stats_collector
 
 user { 'dennisdegreef':
   keys => [

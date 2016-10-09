@@ -4,3 +4,6 @@
 [submodule "puppet/modules/stdlib"]
 	path = puppet/modules/stdlib
 	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "puppet/modules/openntpd"]
+	path = puppet/modules/openntpd
+	url = https://github.com/link0/puppet-openntpd

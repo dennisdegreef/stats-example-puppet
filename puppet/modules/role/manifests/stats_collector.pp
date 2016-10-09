@@ -1,7 +1,7 @@
 #
 class role::stats_collector (
   $stats = true,
-) inherits role {
+) {
 
   validate_bool($stats)
 
