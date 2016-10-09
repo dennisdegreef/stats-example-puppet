@@ -18,6 +18,8 @@ $ vagrant ssh-config | grep HostName | awk '{print $2}'
 
 ## Configure a user for Grafana in InfluxDB
 
+**NOTE:** *This example uses a weak username and password combination. Please configure a stronger alternative yourself!*
+
 ![ConfigureInfluxDB](docs/create-influx-user.gif)
 
 ## Configure Grafana to connect to InfluxDB
