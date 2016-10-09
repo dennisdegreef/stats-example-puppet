@@ -12,7 +12,8 @@ vagrant provision
 
 ### Find out the IP address of the machine
 ```
-vagrant ssh-config | grep HostName | awk '{print $2}'
+$ vagrant ssh-config | grep HostName | awk '{print $2}'
+192.168.121.220
 ```
 
 ## Configure a user for Grafana in InfluxDB
