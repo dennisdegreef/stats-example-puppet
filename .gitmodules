@@ -1,0 +1,6 @@
+[submodule "puppet/modules/collectd"]
+	path = puppet/modules/collectd
+	url = https://github.com/link0/puppet-collectd.git
+[submodule "puppet/modules/stdlib"]
+	path = puppet/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
