@@ -4,7 +4,7 @@
 
 ### Vagrant up
 ```
-git clone https://github.com/dennisdegreef/stats-example-puppet.git
+git clone https://github.com/dennisdegreef/stats-example-puppet.git --recursive
 cd stats-example-puppet
 vagrant up
 vagrant provision
