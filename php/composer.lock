@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "2e4ce7e8dd6876fdf22e57c30b6def7f",
+    "content-hash": "d9d49baaed54dc54af6583be843601f9",
+    "packages": [
+        {
+            "name": "league/statsd",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/statsd.git",
+                "reference": "92f34c882a6c4a553aa76d73169d4c1ed185f836"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/statsd/zipball/92f34c882a6c4a553aa76d73169d4c1ed185f836",
+                "reference": "92f34c882a6c4a553aa76d73169d4c1ed185f836",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "silex/silex": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\StatsD\\": "src",
+                    "League\\StatsD\\Test\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Qualie",
+                    "email": "marc@marcqualie.com",
+                    "homepage": "http://marcqualie.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library for working with StatsD in PHP.",
+            "homepage": "https://github.com/thephpleague/statsd",
+            "keywords": [
+                "graphite",
+                "library",
+                "statsd"
+            ],
+            "time": "2016-04-21 18:22:15"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
