@@ -1,0 +1,29 @@
+version: '2'
+services:
+
+  telegraf:
+    image: telegraf
+    volumes:
+      - './etc/telegraf:/etc/telegraf'
+    ports:
+      - "8125:8125"
+    expose:
+      - "8125"
+
+  influxdb:
+    image: influxdb
+    volumes:
+      - './etc/influxdb:/etc/influxdb'
+    ports:
+      - "8083:8083"
+      - "8086:8086"
+    expose:
+      - "8083"
+      - "8086"
+
+  grafana:
+    image: grafana/grafana:4.1.2
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"

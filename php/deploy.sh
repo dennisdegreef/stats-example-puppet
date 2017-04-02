@@ -1,3 +1,15 @@
+#!/bin/bash
 
+text="<a href='https://github.com'>Release notes</a>"
 
-curl -X POST "http://192.168.121.220:8086/write?db=collectd_db&precision=s" --data-binary "events title=\"Deployed v10.2.0\",text=\"<a href='https://github.com'>Release notes</a>\",tags=\"example app\" $(date +%s)"
+if [[ ! -z $1 ]];
+then
+	text="$1"
+fi
+
+echo "Deploying: $text"
+
+curl \
+	-X POST \
+	"http://localhost:8086/write?db=telegraf&precision=s" \
+	--data-binary "events title=\"Deployed v10.2.0\",text=\"${text}\",tags=\"example app\" $(date +%s)"
